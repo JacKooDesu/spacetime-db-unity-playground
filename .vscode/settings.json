@@ -56,5 +56,8 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "spacetime-db-unity-playground.sln"
+    "dotnet.defaultSolution": "spacetime-db-unity-playground.sln",
+    "rust-analyzer.linkedProjects": [
+        "./SpacetimeDBProj/server/Cargo.toml",
+    ]
 }
