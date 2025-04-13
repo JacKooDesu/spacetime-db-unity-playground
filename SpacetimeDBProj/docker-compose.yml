@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  spacetimedb:
+    container_name: spacetimedb
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ..:/Project
+    working_dir: /Project/SpacetimeDBProj
+    tty: true
+    stdin_open: true
